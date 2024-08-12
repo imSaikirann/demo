@@ -6,7 +6,7 @@ export default function Home() {
         <div className="w-full  h-screen overflow-hidden bg-gray-100 flex items-center justify-center ">
             <div className=" container mt-[150px] md:mt-0 mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
                 
-            <div>
+         
                     {/* Text Section */}
                     <div className="md:w-1/2 flex flex-col space-y-6">
                     <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
@@ -24,7 +24,7 @@ export default function Home() {
                 <div className="  md:w-1/2 mt-10 md:mt-0 flex justify-center">
                     <img src={Banner} alt="Elevate Banner" className="w-full h-auto max-w-md rounded-lg shadow-xl" />
                 </div>
-            </div>
+          
             
             </div>
         </div>
